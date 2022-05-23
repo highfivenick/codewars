@@ -1,0 +1,6 @@
+function moveZeros(arr) {
+  let newArr = arr.filter(e => e !== 0)
+  let is0 = arr.filter(e => e === 0)
+  newArr.push(...is0)
+  return newArr
+}
