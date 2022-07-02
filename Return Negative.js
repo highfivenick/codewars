@@ -4,6 +4,17 @@ function makeNegative(num) {
   if (str === '0' || (str.charAt(0) === '-')){
     return num
   }else {
+    return num * -1
+  }
+}
+
+
+function makeNegative(num) {
+  // Code?
+  let str = num.toString()
+  if (str === '0' || (str.charAt(0) === '-')){
+    return num
+  }else {
     let neg = `-${str}`
     return Number(neg)
   }
