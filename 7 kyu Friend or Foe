@@ -1,0 +1,6 @@
+function friend(friends){
+  //your code here
+  const actualNames = friends.filter(str => str != Number(str))
+  const realFriends = actualNames.filter(name => name.length === 4)
+  return realFriends
+}
