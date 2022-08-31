@@ -10,3 +10,11 @@ function bmi(weight, height) {
     return 'Obese'
   }
 }
+
+function bmi(weight, height) {
+  let archaicMeasurement = (weight / (height*height))
+  return archaicMeasurement <= 18.5 ? 'Underweight'
+    : archaicMeasurement <= 25 ? 'Normal'
+    : archaicMeasurement <= 30 ? 'Overweight'
+    : 'Obese'
+}
