@@ -8,5 +8,5 @@ function duplicateEncode(word){
       str += '('
     }
   }
-  return str
+  return str 
 }
