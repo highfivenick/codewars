@@ -10,3 +10,4 @@ function duplicateEncode(word){
   }
   return str 
 }
+
